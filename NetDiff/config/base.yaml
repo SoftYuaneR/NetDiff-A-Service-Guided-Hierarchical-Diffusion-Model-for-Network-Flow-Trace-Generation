@@ -1,0 +1,34 @@
+
+
+#type: args
+
+train:
+  epochs: 50
+  batch_size: 64
+  lr: 1.0e-3
+
+diffusion:
+  layers: 4 
+  channels: 16
+  nheads: 1
+  diffusion_embedding_dim: 128
+  beta_start: 0.0001
+  beta_end: 0.01
+  num_steps: 30
+  schedule: "quad"
+  dropout: 0.05
+  activation: 'gelu'
+  seq_length: 128
+  freq_select: 5
+
+model:
+  is_unconditional: true
+  timeemb: 836
+  featureemb: 16
+  target_strategy: "random"
+
+
+
+Fourtier:
+  modes: 64
+  mode_select_method: 'random'
