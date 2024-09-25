@@ -1,0 +1,2 @@
+# NetDiff-A-Service-Guided-Hierarchical-Diffusion-Model-for-Network-Flow-Trace-Generation
+NetDiff uses a hierarchical generation structure to model mobile users' interactions with network services, like app usage traces. It leverages these traces to guide network flow generation, avoiding pattern collapse by gradually eliminating noise and using service conditions for precise control at each generation step.
